@@ -4,8 +4,9 @@
 }
 
 .search-form {
+  margin-top: .5rem;
   min-height: 10vh;
-  display: fles;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -13,10 +14,12 @@
 .search-bar {
   width: 50%;
   border: none;
+  border-radius: 5px;
   padding: 10px
 }
 
 .search-button {
+  border-radius: 5px;
   background: lightcoral;
   border: none;
   padding: 10px 20px;
